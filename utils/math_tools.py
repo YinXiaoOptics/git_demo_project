@@ -1,5 +1,4 @@
 def add(x, y):
-    """Add two numbers and return result"""
+    """Add two numbers with debug info"""
     print(f"[DEBUG] adding {x} and {y}")
-    return x + y
-
+    return float(x) + float(y)
